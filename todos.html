@@ -1,0 +1,73 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Todos</title>	
+			<link rel="stylesheet" href="style.css" type="text/css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" type="text/css">
+		</head>
+		<body>
+			<div class="wrapper">
+				<div class="container">
+					<div id="logo">
+						<h1>Todos</h1>
+						<p>Put all your todos here, so you can do them and check them off!</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div id="todos">
+					<div id="todos-heading">
+						<h2>What, to do?</h2>
+						<input id="new-todo">
+						<p>
+							<span><a href="" id="clear-completed">clear completed</a></span>
+							<span><input type="checkbox" id="toggle-all">toggle all completed</span>
+						</p>
+					</div>
+					<div id="todos-main">
+						<ul id="todos-list"></ul>
+					</div>
+					<div id="todos-footer"></div>
+				</div>
+			</div>
+
+			<script type="text/template" id="todos-item-template">
+				<div>
+					<input class= "toggle-complete" type="checkbox" <% if (done) { %>
+						 checked='checked'
+					<% } else { %>
+						''
+					<% } %> >
+					<label><%= title %></label>
+					<span><a href="" class="destroy">destroy</a></span>
+				</div>
+				<input class="edit">
+			</script>
+
+			<script type="text/template" id="todos-stats-template">
+				<p><%= remaining %> todo(s) remaining. <%= done %> todo(s) done.</p>
+			</script>
+
+			<div class="social-footer-wrapper">
+				<div class="container">
+					<div id="social-footer">
+						<ul>
+							<li><a href="https://twitter.com/landonsanders"><i class="fa fa-twitter fa-fw"></i></a></li>
+							<li><a href="https://www.facebook.com/landon.sanders"><i class="fa fa-facebook fa-fw"></i></a></li>
+							<li><a href="https://github.com/landonsanders"<i class="fa fa-github fa-fw"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<script src="test.js"></script>
+
+			<script src="jquery.js"></script>
+			<script src="underscore.js"></script>
+			<script src="backbone.js"></script>
+			<script src="backbone.localStorage.js"></script>
+
+			<script src="script.js"></script>
+		</body>
+	</html>

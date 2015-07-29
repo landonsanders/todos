@@ -1,0 +1,93 @@
+body {
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;}
+
+p {
+	margin: 0;
+	padding: 0;}
+
+ul {
+	margin: 0;
+	padding: 0;}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 6px;}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;}
+
+.wrapper {
+	background: #34495E;
+	color: #ECF0F1;}
+
+#logo {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 16px;}
+
+#logo h1 {
+	font-size: 48px;
+	line-height: 62px;}
+
+#logo p {
+	font-size: 24px;
+	line-height: 41px;}
+
+#todos {
+	margin: 60px 0;
+	padding: 0;}
+
+#todos li .edit {
+	display: none;}
+
+#todos-heading {
+	margin: 0;
+	padding: 0;
+	height: 144px;}
+
+#todos-main {
+	min-height: 216px;}
+
+#todos-footer {
+	text-align: center;
+	padding: 16px;
+	height: 72px;}
+
+.social-footer-wrapper {
+	background: #95A5A6;
+	margin: 0;
+	padding: 0;}
+
+#social-footer {
+	font-size: 24px;
+	color: #ECF0F1;
+	height: 144px;
+	margin: 0;
+	padding: 0;
+	padding-top: 36px;}
+
+#social-footer li {
+	background: #34495E;
+	display: inline-block;
+	margin-right: 10px;}
+
+#social-footer li a {
+	text-decoration: none;}
+
+#social-footer li a:link {
+	color: #ECF0F1;}
+
+#social-footer li a:visited {
+	color: #ECF0F1;}
+
+#social-footer li a:hover {
+	color: #ECF0F1;}
+
+#social-footer li a:active {
+	color: #ECF0F1;}
