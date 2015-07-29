@@ -1,0 +1,35 @@
+#todos li .edit {
+	display: none;}
+
+.social-footer-wrapper {
+	background: #95A5A6;
+	margin: 0;
+	padding: 0;}
+
+#social-footer {
+	font-size: 24px;
+	color: #ECF0F1;
+	height: 144px;
+	margin: 0;
+	padding: 0;
+	padding-top: 36px;}
+
+#social-footer li {
+	background: #34495E;
+	display: inline-block;
+	margin-right: 10px;}
+
+#social-footer li a {
+	text-decoration: none;}
+
+#social-footer li a:link {
+	color: #ECF0F1;}
+
+#social-footer li a:visited {
+	color: #ECF0F1;}
+
+#social-footer li a:hover {
+	color: #ECF0F1;}
+
+#social-footer li a:active {
+	color: #ECF0F1;}

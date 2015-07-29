@@ -89,7 +89,7 @@ var TodoView = Backbone.View.extend({
 	},
 	
 	edit: function () {
-		this.$input.show();
+		this.$el.addClass('editing');
 		console.log('Edit!');
 		console.log(this.el.className);
 	},
